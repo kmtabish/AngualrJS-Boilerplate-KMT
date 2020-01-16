@@ -19,7 +19,7 @@
 
 > `gulp start`
 
-magic will happen on `http://127.0.01:3001/#!/`
+magic will happen on `http://127.0.0.1:3001/#!/`
 
 **Tip (Folder structure):**
 - `gulpfile.js`: all the task written here.
