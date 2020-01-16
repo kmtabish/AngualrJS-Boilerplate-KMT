@@ -34,9 +34,9 @@ magic will happen on `http://127.0.01:3001/#!/`
 - `src/app/index.html` : Start HTML page
 
 **Build Process Steps:**
-`npm install` : It will install all the node dependencies(*inside the project folder*)
-`bower install` : it will install all the JS librariy dependencies(*inside the src/app folder)*
-`gulp start`: it will do the following steps: 
+- `npm install` : It will install all the node dependencies(*inside the project folder*)
+- `bower install` : it will install all the JS librariy dependencies(*inside the src/app folder)*
+- `gulp start`: it will do the following steps: 
  1. it will create a folder named **www** and move all the codes from the **src/app** to **www** folder.
  2. compile the **scss** files to **css** and create a common **css** file inside the **www** folder.
  3. make the changes only in the folder of src/app, it will auto compile and update inside the www folder.
