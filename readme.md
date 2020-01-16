@@ -1,8 +1,7 @@
-**
 
 ## Angulat JS(1x) Boilerplate
 
-**
+
 **This inclue the following tech stack:**
 
  - `angular - 1.7.7`
