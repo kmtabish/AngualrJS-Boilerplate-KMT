@@ -22,16 +22,16 @@
 magic will happen on `http://127.0.01:3001/#!/`
 
 **Tip (Folder structure):**
-`gulpfile.js`: all the task written here.
-`src/app/assets/images` : Contains images(icons, logo etc.)
-`src/app/assets/sass` : Contains scss files
-`src/app/controller` : Controller files(screen wise)
-`src/app/services` : Services files(screen wise)
-`src/app/directives` : Directive files(screen wise)
-`src/app/views` : Html files(screen wise)
-`src/app/app.js` : start Js file(Angular app start point, routes etc.)
-`src/app/config.js` : enum code(Constaints)
-`src/app/index.html` : Start HTML page
+- `gulpfile.js`: all the task written here.
+- `src/app/assets/images` : Contains images(icons, logo etc.)
+- `src/app/assets/sass` : Contains scss files
+- `src/app/controller` : Controller files(screen wise)
+- `src/app/services` : Services files(screen wise)
+- `src/app/directives` : Directive files(screen wise)
+- `src/app/views` : Html files(screen wise)
+- `src/app/app.js` : start Js file(Angular app start point, routes etc.)
+- `src/app/config.js` : enum code(Constaints)
+- `src/app/index.html` : Start HTML page
 
 **Build Process Steps:**
 `npm install` : It will install all the node dependencies(*inside the project folder*)
