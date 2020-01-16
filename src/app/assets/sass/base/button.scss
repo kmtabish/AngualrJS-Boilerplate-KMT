@@ -1,0 +1,17 @@
+.btn-primary{
+  background-color: #9b7f7f;
+  color: #a14747;
+  &:focus, &:active{
+    color: #000000;
+    background-color: #a14747;
+  }
+  &:disabled{
+    color: #635959;
+    background-color: #eec2c2;
+    opacity: 0.3;
+  }
+}
+
+.text-color{
+  color: red
+}

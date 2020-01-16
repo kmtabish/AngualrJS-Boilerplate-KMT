@@ -1,0 +1,13 @@
+
+//Base sass included.
+
+@import "base/fonts";
+@import "base/global";
+@import "base/button";
+
+//components sass included.
+@import "component/footer";
+@import "component/header";
+@import "component/home";
+//screens sass included
+@import "screens/blogs-list";

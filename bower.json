@@ -1,0 +1,21 @@
+{
+  "name": "angulatboilerplate",
+  "version": "0.0.1",
+  "authors": [
+    "tabish.khan <tabish.khan@tothenew.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.7.7",
+    "angular-route": "~1.7.7",
+    "angular-bootstrap": "^2.5.0",
+    "bootstrap": "^4.4.1"
+  }
+}

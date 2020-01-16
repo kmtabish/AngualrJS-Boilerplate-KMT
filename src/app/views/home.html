@@ -1,0 +1,27 @@
+
+
+<!-- slider directive -->
+
+
+<h3><span>{{HomeCtrl.testMsg}}</span></h3>
+<div class="container cf">
+<test-dir title="'test title directive'"></test-dir>    
+    <div>
+        <a href="#!/404">Link: Go To 404 Page</a>
+        <div class="text-color">API DATA</div>
+        <div>----------------------</div>
+        <div ng-if="HomeCtrl.isLoading">Loading, Please wait...</div>
+        <div ng-if="HomeCtrl.data">
+            <div ng-repeat="data in HomeCtrl.data">
+                {{data.From_Currency_Code}}
+            </div>
+        </div>
+    </div>
+</div>
+	<button class="btn btn-default" ng-click="isCollapsed = !isCollapsed">Toggle collapse</button>
+	<hr>
+	<div collapse="isCollapsed">
+		<div class="well well-lg">Some content</div>
+	</div>
+<div class="text-center">
+</div>
