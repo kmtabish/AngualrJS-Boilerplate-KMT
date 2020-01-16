@@ -1,5 +1,5 @@
 {
-  "name": "investindia",
+  "name": "angulatjsboilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.intelligrape.net:aem/invest-india-pg.git"
+    "url": "git@github.com:kmtabish/AngualrJS-Boilerplate-KMT.git"
   },
   "author": "",
   "license": "ISC",
